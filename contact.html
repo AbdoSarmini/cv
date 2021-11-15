@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Contact Me!</h1>
+    <ul>
+      <li>Phone Number: 05511724285</li>
+      <li>Email: abdosarmini92@gmail.com</li>
+      <li>Adress: Turkey Bursa</li>
+    </ul>
+
+    <h3>Contact Form</h3>
+    <form
+      action="mailto:abdosamrini92@gmail.com"
+      method="post"
+      enctype="text/plain"
+    >
+      <table>
+        <tr>
+          <td><label>Your Name:</label></td>
+          <td><input type="text" name="Name" required /></td>
+        </tr>
+        <tr>
+          <td><label>Email:</label></td>
+          <td><input type="email" name="Email" required /></td>
+        </tr>
+        <tr>
+          <td>Date and Time:</td>
+          <td><input type="datetime-local" name="Date and Time" /></td>
+        </tr>
+        <tr>
+          <td><label>Message:</label></td>
+        </tr>
+      </table>
+      <textarea name="Message" cols="33" rows="10" required></textarea>
+      <br />
+      <input type="submit" />
+    </form>
+  </body>
+</html>
